@@ -39,7 +39,7 @@ tape( 'if an environment supports `Buffer`, the export is an alias for `Buffer`'
 	var Foo;
 
 	Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-node-buffer-support': isTrue,
+		'@stdlib/assert-has-node-buffer-support': isTrue,
 		'./buffer.js': Mock
 	});
 	t.strictEqual( Foo, Mock, 'returns builtin' );
@@ -63,7 +63,7 @@ tape( 'if an environment does not support `Buffer`, the export is a polyfill', f
 	var Foo;
 
 	Foo = proxyquire( './../lib', {
-		'@stdlib/assert/has-node-buffer-support': isFalse
+		'@stdlib/assert-has-node-buffer-support': isFalse
 	});
 
 	t.strictEqual( Foo, polyfill, 'returns polyfill' );
