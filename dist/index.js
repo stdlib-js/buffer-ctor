@@ -1,7 +1,8 @@
-/*
+"use strict";var t=function(f,r){return function(){return r||f((r={exports:{}}).exports,r),r.exports}};var o=t(function(q,i){"use strict";var l=require("buffer").Buffer;i.exports=l});var u=t(function(m,s){"use strict";function p(){throw new Error("not implemented")}s.exports=p});var a=require("@stdlib/assert-has-node-buffer-support"),c=o(),n=u(),e;a()?e=c:e=n;module.exports=e;
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2018 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -15,23 +16,4 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
-// TypeScript Version: 4.1
-
-/// <reference types="node"/>
-
-import { Buffer } from 'buffer';
-
-
-// EXPORTS //
-
-/**
-* Buffer constructor.
-*
-* @example
-* var ctor = require( `@stdlib/buffer/ctor` );
-*
-* var b = new ctor( [ 1, 2, 3, 4 ] );
-* // returns <Buffer>
-*/
-export = Buffer;
+//# sourceMappingURL=index.js.map
