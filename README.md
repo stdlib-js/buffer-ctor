@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@esm/index.mjs';
+import Buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@v0.1.0-esm/index.mjs';
 ```
 
 #### Buffer( size )
@@ -140,7 +140,7 @@ TODO: add methods
 <body>
 <script type="module">
 
-import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@esm/index.mjs';
+import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@v0.1.0-esm/index.mjs';
 
 var b;
 var i;
