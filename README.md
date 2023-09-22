@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@deno/mod.js';
+import Buffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@v0.1.0-deno/mod.js';
 ```
 
 #### Buffer( size )
@@ -135,7 +135,7 @@ TODO: add methods
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@deno/mod.js';
+import ctor from 'https://cdn.jsdelivr.net/gh/stdlib-js/buffer-ctor@v0.1.0-deno/mod.js';
 
 var b;
 var i;
