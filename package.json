@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/buffer-ctor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Buffer.",
   "license": "Apache-2.0",
   "author": {
@@ -37,10 +37,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-node-buffer-support": "^0.1.0"
+    "@stdlib/assert-has-node-buffer-support": "^0.1.1"
   },
   "devDependencies": {
-    "@stdlib/assert-is-buffer": "^0.1.0",
+    "@stdlib/assert-is-buffer": "^0.1.1",
     "@stdlib/assert-is-function": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/math-base-special-pow": "^0.1.0",
