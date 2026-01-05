@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-01-05)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`a83b4cc`](https://github.com/stdlib-js/stdlib/commit/a83b4cc2ff80364c1b0c6e4a312ea4fb4ed4e325) - **bench:** refactor to use string interpolation in `buffer/ctor` [(#9552)](https://github.com/stdlib-js/stdlib/pull/9552) _(by Vishal Gaikwad, stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Vishal Gaikwad
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)
