@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/buffer-ctor",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Buffer.",
   "license": "Apache-2.0",
   "author": {
@@ -40,10 +40,10 @@
     "@stdlib/assert-has-node-buffer-support": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-buffer": "^0.2.2",
-    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/assert-is-buffer": "^0.2.3",
+    "@stdlib/assert-is-function": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/string-format": "^0.2.3",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
