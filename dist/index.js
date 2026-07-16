@@ -1,4 +1,4 @@
-"use strict";var t=function(f,r){return function(){return r||f((r={exports:{}}).exports,r),r.exports}};var o=t(function(q,i){"use strict";var l=require("buffer").Buffer;i.exports=l});var u=t(function(m,s){"use strict";function p(){throw new Error("not implemented")}s.exports=p});var a=require("@stdlib/assert-has-node-buffer-support"),c=o(),n=u(),e;a()?e=c:e=n;module.exports=e;
+"use strict";var t=function(f,r){return function(){try{return r||f((r={exports:{}}).exports,r),r.exports}catch(l){throw r=0,l}}};var o=t(function(m,i){"use strict";var p=require("buffer").Buffer;i.exports=p});var u=t(function(x,s){"use strict";function a(){throw new Error("not implemented")}s.exports=a});var c=require("@stdlib/assert-has-node-buffer-support"),n=o(),v=u(),e;c()?e=n:e=v;module.exports=e;
 /**
 * @license Apache-2.0
 *
